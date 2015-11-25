@@ -1,0 +1,53 @@
+body {
+  background-color: #ECECEC;
+  font-family: 'Josefin Sans', sans-serif;
+  height: 100%;
+}
+#about-box {
+  margin: 0 auto;
+  width: 291px;
+  height: 20%;
+  margin-top: 50px;
+}
+#about-box #name {
+  margin: 0 auto;
+  font-size: 3em;
+}
+#about-box #name:before {
+  content:"-";
+}
+#about-box #name:after {
+  content:"-";
+}
+#about-box #avatar {
+  margin:0 auto;
+  width: 100px;
+  height: 100px;
+}
+#about-box #avatar img {
+  width: 100px;
+  height: 100px;
+}
+#about-box #title {
+  margin:0 auto;
+  width: 188px;
+  font-size: 1.5em;
+}
+.icons {
+  list-style: none;
+}
+.icons li {
+  display: inline;
+}
+.icons li a{
+  text-decoration: none;
+  color: #909090;
+  font-size: 3em;
+  padding: 13px;
+}
+.icons li a:hover{
+  color: black;
+}
+.icons li span{
+  display: none;
+}
